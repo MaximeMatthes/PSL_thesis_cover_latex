@@ -1,0 +1,61 @@
+\documentclass[a4paper, 11pt]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{lmodern}
+\usepackage{lipsum}
+\usepackage[]{psl-cover}
+%available options: 
+%cotutelle: allows the display of the name and logo of the other institution
+%entitle: allows the display of the english title
+\usepackage{xstring}
+\usepackage{ifthen}
+\newboolean{defended} % boolean used to switch between "a soutenir par" and "soutenue par"
+
+
+
+\title{Ph.D. title (French)}
+\entitle{Ph.D. title (English)} % sets to add the Ph.D. title in English
+
+\author{First LAST}
+
+\institute{Institution}
+\doctoralschool{doctoralschool}{DS_number}
+\specialty{specialty}
+\setboolean{defended}{true}   % false if the defense has not been done, true otherwise
+\date{date}
+
+% cotutelle: uncomment the two following lines to display the name of the other institution and their logo
+% \otherinstitute{Otherinstitute}
+% \logootherinstitute{logo-institute.jpg}
+
+
+\jurymember{1}{First LAST}{Maître de Conférences\\ PSL Université Paris}{Président}
+\jurymember{2}{First LAST}{Directeur de Recherche\\ PSL Université Paris}{Rapporteur}
+\jurymember{3}{First LAST}{Professeur\\ PSL Université Paris}{Examinateur}
+\jurymember{4}{First LAST}{Professeur\\ PSL Université Paris}{Examinateur}
+\jurymember{5}{First LAST}{Directeur de Recherche\\ PSL Université Paris}{Directeur de thèse}
+\jurymember{6}{First LAST}{Chargé de Recherche\\ PSL Université Paris}{Invité}
+
+
+\frabstract{ 
+  \lipsum[2]
+}
+
+\enabstract{
+  \lipsum[1]
+
+}
+
+\frkeywords{ Science, Travail, Rédaction, Thèse }
+\enkeywords{ Science, Work, Writing,  Thesis}
+
+\begin{document}
+
+\maketitle{}
+
+\lipsum[1-2]
+
+
+\end{document}
