@@ -1,7 +1,8 @@
 # PSL_thesis_cover_latex
 Update of the PSL thesis cover written by Pierre Guillou
 
-Most of the information can be be found in the README_Guillou.md, and at [Pierre Guillou's website](https://pierre.guillou.net/psl-cover/2018/)
+Most of the information can be be found in the [README_Guillou.md](https://github.com/MaximeMatthes/PSL_thesis_cover_latex/blob/master/README_Guillou.md),
+and at [Pierre Guillou's website](https://pierre.guillou.net/psl-cover/2018/)
 
 Updates:
 
